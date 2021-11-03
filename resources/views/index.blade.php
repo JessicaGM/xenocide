@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{secure_asset('css/normalize.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="{{asset('js/script.js')}}" defer></script>
+    <script src="js/script.js" defer></script>
     <title>Xenocide</title>
 </head>
 
@@ -37,7 +37,7 @@
     <section id="hero" class="hero container">
         <div class="hero-content">
             <div class="texture"></div>
-            <video src="{{secure_asset('images/HexBg.mp4')}}" muted loop autoplay>Your browser does not support the
+            <video src="images/HexBg.mp4" muted loop autoplay>Your browser does not support the
                 video</video>
             <h1 class="hero-heading">Xenocide</h1>
             <h2 class="hero-subheading">Coming soon...</h2>
@@ -57,7 +57,7 @@
         </div>
         <div class="game-img">
             <div class="game-img-wrapper">
-                <img src="{{secure_asset('images/sampleimage.jpg')}}" alt="preview of the game">
+                <img src="images/sampleimage.jpg" alt="preview of the game">
             </div>
         </div>
     </section>
@@ -83,7 +83,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -97,7 +97,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -111,7 +111,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -125,7 +125,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -136,21 +136,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
-                        </div>
-                        <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
-                        </div>
-                        <div class="card-socials">
-                            <a href=""><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -161,7 +147,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -172,7 +158,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
@@ -183,7 +169,18 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="{{secure_asset('images/img.jpg')}}" alt="">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+                        <div class="card-info">
+                            <h4>Name</h4>
+                            <h5>Role</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-img">
+                            <img src="images/img.jpg" alt="">
                         </div>
                         <div class="card-info">
                             <h4>Name</h4>
