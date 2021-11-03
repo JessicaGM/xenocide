@@ -396,3 +396,78 @@ a {
     color:rgb(241, 241, 241);
 }
 /* End footer section */
+
+/* Start fix responsiveness */
+/* Desktop */
+@media screen and (min-width: 900px) {
+    .hero {
+        height: 90vh;
+        padding-right: 10%;
+    }
+
+    #hero h1 {
+        font-size: 7rem;
+    }
+
+    .game {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+
+    .game .game-content {
+        width: 50%;
+        text-align: left;
+        padding-right: 6rem;
+    }
+
+    .about {
+        padding: 0 12rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    #hero h1 {
+        font-size: 9rem;
+    }
+
+    .about {
+        padding: 0 21rem;
+    }
+}
+
+/* Moblie */
+@media screen and (max-width: 800px) {
+    #hero h1 {
+        font-size: 4rem;
+    }
+
+    .game {
+        margin-top: 50px;
+        padding: 3rem 3rem;
+    }
+
+    .about {
+        padding: 3rem 3rem;
+    }
+
+    .team {
+        padding: 0 1rem;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        text-align: left;
+        margin: 0 20px 20px 20px;
+    }
+
+    .footer-right {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+/* End fix responsiveness */
