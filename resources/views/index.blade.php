@@ -51,10 +51,7 @@
     <section class="game container" id="game">
         <div class="game-content">
             <h1 class="game-heading">Game</h1>
-            <p class="game-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel felis iaculis,
-                mollis lacus at, mollis sapien. Nam dictum sodales enim, quis placerat augue varius in. Donec elementum
-                nibh a magna consectetur aliquet. Vivamus fermentum tincidunt leo, ac elementum elit eleifend ac. Sed
-                erat neque, ultrices quis cursus at, pulvinar vitae orci.</p>
+            <p class="game-paragraph">Xenocide is a competitive turn-based strategy multiplayer game, where you protect your queen and your kingdom from evil invaders, non-human creatures. It is a perfect game to play with friends as you unlock new characters, rank up  and compete against each other. The game is intended for ages between 15 – 35 as it requires tactical skills to plan ahead and anticipate the movement of the opponents. </p>
         </div>
         <div class="game-img">
             <div class="game-img-wrapper">
@@ -68,10 +65,7 @@
     <section class="about container" id="about">
         <div class="about-content">
             <h1 class="about-heading">About us</h1>
-            <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel felis iaculis,
-                mollis lacus at, mollis sapien. Nam dictum sodales enim, quis placerat augue varius in. Donec elementum
-                nibh a magna consectetur aliquet. Vivamus fermentum tincidunt leo, ac elementum elit eleifend ac. Sed
-                erat neque, ultrices quis cursus at, pulvinar vitae orci.</p>
+            <p class="about-paragraph">We are a team of Aston University students who are currently developing Xenocide. We are passionate about what we do while having fun and trying to create an empowering community. We hope you enjoy playing the game as much as we enjoy creating it!</p>
         </div>
     </section>
     <!-- End about us section -->
@@ -84,119 +78,124 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/ja-img.jfif" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Junaid A.</h4>
+                            <h5>Programmer</h5>
                         </div>
                         <div class="card-socials">
-                            <a href=""><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/alienj13"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/gn-img.jfif" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Gia N.</h4>
+                            <h5>Programmer</h5>
                         </div>
                         <div class="card-socials">
-                            <a href=""><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/IBN5101"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/jg-img.jfif" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Jessica G.</h4>
+                            <h5>Web Developer</h5>
                         </div>
                         <div class="card-socials">
-                            <a href=""><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/JessicaGM"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/default-d5.png" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Ahmed A.</h4>
+                            <h5>Game UI artist</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/us-img.jfif" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Umayr S.</h4>
+                            <h5>Documentation Specialist</h5>
+                        </div>
+                        <div class="card-socials">
+                            <a href="https://github.com/usane001"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/default-d2.png" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Andrew B.</h4>
+                            <h5>Documentation Specialist</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/default-d1.png" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Rinah N.</h4>
+                            <h5>Documentation Specialist</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/default-d4.png" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Ramy P.</h4>
+                            <h5>Documentation Specialist</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/img.jpg" alt="">
+                            <img src="images/default-d3.png" alt="member icon">
                         </div>
                         <div class="card-info">
-                            <h4>Name</h4>
-                            <h5>Role</h5>
+                            <h4>Zain E.</h4>
+                            <h5>Documentation Specialist</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End our team section -->
+
     <!-- Start footer section -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-left">
-                <h4 class="footer-heading">&copy 2021 Team 5 Xenocide</h4>
+                <h4 class="footer-heading">&copy {{ date('Y') }} Team 5 Xenocide</h4>
             </div>
             <div class="footer-right">
                 <h4 class="footer-contact">Contact us: team5xenocide@outlook.com</h4>
