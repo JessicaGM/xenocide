@@ -1,4 +1,17 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/script.js": "/js/script.js",
+    "/css/app.css": "/css/app.css",
+    "/images/default-d1.png": "/images/default-d1.png",
+    "/images/default-d2.png": "/images/default-d2.png",
+    "/images/default-d3.png": "/images/default-d3.png",
+    "/images/default-d4.png": "/images/default-d4.png",
+    "/images/default-d5.png": "/images/default-d5.png",
+    "/images/favicon.ico": "/images/favicon.ico",
+    "/images/gn-img.jfif": "/images/gn-img.jfif",
+    "/images/HexBg.mp4": "/images/HexBg.mp4",
+    "/images/ja-img.jfif": "/images/ja-img.jfif",
+    "/images/jg-img.jfif": "/images/jg-img.jfif",
+    "/images/sampleimage.jpg": "/images/sampleimage.jpg",
+    "/images/texture.png": "/images/texture.png",
+    "/images/us-img.jfif": "/images/us-img.jfif"
 }
