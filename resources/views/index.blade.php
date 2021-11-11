@@ -55,7 +55,7 @@
         </div>
         <div class="game-img">
             <div class="game-img-wrapper">
-                <img src="images/sampleimage.jpg" alt="preview of the game">
+                <img src="images/sampleimage.png" alt="preview of the game">
             </div>
         </div>
     </section>
