@@ -198,7 +198,7 @@ a {
 .game {
 	width: 100%;
 	min-height: 50vh;
-	padding: 10rem 5rem;
+	padding: 10rem 5rem 0rem 5rem;
 	flex-direction: column;
 }
 
@@ -363,6 +363,7 @@ a {
 
 /* Start about section */
 .about {
+    margin-top: 5rem;
 	width: 100%;
     padding: 0 5em;
 	flex-direction: column;
@@ -389,7 +390,7 @@ a {
 
 /* Start meet the team section */
 .team {
-    margin-top: 30px;
+    margin-top: 5rem;
 	width: 100%;
     padding: 0 5rem;
 	flex-direction: column;
@@ -463,7 +464,6 @@ a {
     font-size: 0.9rem;
     text-align: center;
     font-weight: 500;
-    
 }
 
 .card-container .card .card-socials { 
@@ -483,7 +483,7 @@ a {
 /* Start footer section */
 .footer {
     margin-top: 100px;
-    background-color: rgb(70, 212, 173,0.5);
+    background-color: rgb(70, 212, 173, 0.5);
     padding: 30px 30px;
     width: 100%;
 }
@@ -506,7 +506,7 @@ a {
 }
 /* End footer section */
 
-/* Start article page */
+/* Start blog article page */
 #blog-article {
     margin-top: 30px;
     padding: 0 5em;
@@ -581,7 +581,7 @@ a {
     text-align: left;
     line-height: 1.5rem;
 }
-/* End article page */
+/* End blog article page */
 
 /* Start fix responsiveness */
 /* Desktop */
@@ -610,6 +610,22 @@ a {
     .about {
         padding: 0 12rem;
     }
+
+    
+    #blog-article {
+        padding: 0 12rem;
+    }
+
+    .article-image {
+        padding: 0 5rem;
+    }
+
+    .article-description {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
 }
 
 @media screen and (min-width: 1900px) {
@@ -619,6 +635,10 @@ a {
 
     .about {
         padding: 0 21rem;
+    }
+
+    #blog-article {
+        padding: 0 15rem;
     }
 }
 
@@ -654,6 +674,18 @@ a {
     .footer-right {
         text-align: left;
         margin-left: 20px;
+    }
+    
+    #blog-article {
+        padding: 0 1rem;
+    }
+
+    .article-heading {
+        font-size: 0.8rem;
+    }
+
+    .blog-container .blog-card {
+        margin: 5px 5px 30px 5px;
     }
 }
 /* End fix responsiveness */
