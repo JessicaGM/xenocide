@@ -23,10 +23,12 @@
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
+            <span class="line"></span>
         </a>
         <div class="nav-links">
             <ul>
                 <li><a href="#game">Game</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#team">Our team</a></li>
             </ul>
@@ -61,6 +63,41 @@
     </section>
     <!-- End game section -->
 
+    <!-- Start blog section -->
+    <section class="blog container" id="blog">
+        <div class="blog-content">
+            <h1 class="blog-heading">Blog</h1>
+            <div class="blog-container">
+                @if (count($blogs) !== 0)
+                @foreach ($blogs as $blog)
+                <div class="blog-card">
+                    <div class="blog-card-header">
+                        <img src="data:image/png;base64,{{ chunk_split(base64_encode($blog->image)) }}"
+                            alt="blog image" />
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-card-info">
+                            <span class="blog-card-category">{{ $blog->category }}</span>
+                            <span class="blog-card-date">{{ date('jS M Y', strtotime($blog->created_at)) }}</span>
+                        </div>
+                        <h4>{{ $blog->title }}</h4>
+                        <p class="blog-card-description">{{ Str::words($blog->description, 12) }}</p>
+                        <p class="blog-card-author"><i>{{ $blog->author }}</i></p>
+                        <a href="{{url('/blog',[$blog->title])}}" type="button" class="view-blog">Read more
+                            <span>&rarr;</span></a>
+                    </div>
+                </div>
+                @endforeach
+                @else
+                <div class="no-blogs" style="text-align: center; color: white; font-size: 1.3rem; line-height: 2rem;">
+                    Coming soon...
+                </div>
+                @endif
+            </div>
+        </div>
+    </section>
+    <!-- End blog section -->
+    
     <!-- Start about us section -->
     <section class="about container" id="about">
         <div class="about-content">

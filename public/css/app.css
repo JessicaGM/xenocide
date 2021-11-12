@@ -252,6 +252,115 @@ a {
 }
 /* End game section */
 
+/* Start blog card section */
+.blog {
+    margin-top: 5rem;
+	width: 100%;
+    padding: 0 5rem;
+    flex-direction: column;
+}
+
+.blog .blog-heading {
+	text-align: center;
+    color: white;
+	font-size: 3.5rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.blog-container .blog-card {
+    margin: 30px;
+    width: 320px;
+    height: 390px;
+    background-color: rgb(70, 212, 173,0.5);
+    border-radius: 20px;
+    overflow: hidden;
+	color: white;
+}
+
+.blog-card-header img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.blog-card-category {
+    margin: 0;
+    padding: 5px 10px;
+    background: rgb(16, 33, 47);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    float: left;
+}
+
+.blog-card-date {
+    margin: 0;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    float: right;
+}
+
+.blog-card-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+}
+
+.blog h4 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.blog .blog-card-description {
+    margin: 10px 10px 0 20px;
+    font-size: 0.8rem;
+}
+
+.blog .blog-card-author {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.blog .view-blog  {
+	margin-top: 20px;
+	width: 100%;
+    font-size: 0.8rem;
+	text-align: center;
+	border: none;
+	color: rgb(16, 33, 47);
+	font-weight: 800px;
+}
+
+.view-blog span {
+	 margin-left: 1rem;
+	 transition: 0.2s;
+}
+
+.view-blog:hover {
+	color:  rgb(70, 212, 173);
+}
+
+ .view-blog:hover span, .blog-view:active span {
+	 margin-left: 1.5rem;
+}
+/* End blog card section */
+
 /* Start about section */
 .about {
 	width: 100%;
@@ -396,6 +505,85 @@ a {
     color:rgb(241, 241, 241);
 }
 /* End footer section */
+
+/* Start article page */
+#blog-article {
+    margin-top: 30px;
+    padding: 0 5em;
+	flex-direction: column;
+}
+
+.article-container {
+	text-align: center;
+    color: white;
+    background-color: #162b38;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.article-category {
+    padding: 5px 10px;
+    background: rgb(70, 212, 173, 0.5);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    float: left;
+}
+
+.article-heading {
+    margin-top: 30px;
+	font-size: 1.3rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.article-author, .article-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.article-author i, .article-date i {
+    margin: 0px 10px;
+}
+
+.article-image {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+}
+
+.article-description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5rem;
+}
+/* End article page */
 
 /* Start fix responsiveness */
 /* Desktop */
