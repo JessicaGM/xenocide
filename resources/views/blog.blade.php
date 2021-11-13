@@ -53,8 +53,8 @@
                 </div>
             </div>
             <div class="article-image">
-                <img src="data:image/png;base64,{{ chunk_split(base64_encode($blog->image)) }}"
-                    alt="article image"></img>
+                <!-- insert as url instead of storing the image in database -->
+                <img src=" {{ $blog->image }}" alt="blog image" />
             </div>
             <div class="article-description-box">
                 <div class="article-description">

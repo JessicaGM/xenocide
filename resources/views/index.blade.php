@@ -73,8 +73,7 @@
                 <div class="blog-card">
                     <div class="blog-card-header">
                         <!-- insert as url instead of storing the image in database -->
-                        <img src=" {{ $blog->image }}"
-                            alt="blog image" />
+                        <img src=" {{ $blog->image }}" alt="blog image" />
                     </div>
                     <div class="blog-card-content">
                         <div class="blog-card-info">
