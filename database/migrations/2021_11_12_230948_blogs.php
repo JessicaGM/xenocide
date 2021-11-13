@@ -17,8 +17,8 @@ class Blogs extends Migration
             $table->increments('blogId');
             $table->string('title')->unique();
             $table->enum('category', ['New', 'Announcement', 'Game updates', 'Our team']);
-            // change in database longblog type for image 
-            $table->binary('image');
+            // change to text (to retrieve image url from database for a blog)
+            $table->text('image');
             $table->longText('description');
             $table->string('author');
             $table->timestamp('created_at')->useCurrent();
