@@ -72,8 +72,9 @@
                 @foreach ($blogs as $blog)
                 <div class="blog-card">
                     <div class="blog-card-header">
-                        <img src="data:image/png;base64,{{ chunk_split(base64_encode($blog->image)) }}"
-                            alt="blog image" />
+                    <!-- insert as url instead of storing the image in database -->
+                    <!--<img alt="" src="images/sampleimage.png">-->
+                        {{ $blog->image }}
                     </div>
                     <div class="blog-card-content">
                         <div class="blog-card-info">
