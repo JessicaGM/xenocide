@@ -421,8 +421,11 @@ a {
     height: 300px;
     background-color: #162b38;
     border-radius: 20px;
-    box-shadow: 0.1em 0.1em 0.1em rgb(70, 212, 173,0.5),
-    -0.1em -0.1em 0.1em rgb(70, 212, 173,0.5);
+}
+
+.card-container .card:hover{
+    border-style: solid;
+    border-color: rgb(70, 212, 173,0.5);
 }
 
 .card-container .card-content {
