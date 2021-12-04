@@ -23,7 +23,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -198,6 +197,4 @@ List of resources:
 [issues-url]: https://github.com/JessicaGM/xenocide/issues
 [license-shield]: https://img.shields.io/github/license/JessicaGM/xenocide.svg?style=for-the-badge
 [license-url]: https://github.com/JessicaGM/xenocide/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://uk.linkedin.com/in/jgregorczyk
 <!-- [product-screenshot]: images/screenshot.png -->
