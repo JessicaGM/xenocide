@@ -58,7 +58,9 @@
             </div>
             <div class="article-description-box">
                 <div class="article-description">
-                    {{ $blog->description }}
+                    @if (!empty($blog->paragraph1)) <p> {{ $blog->paragraph1 }} </p> @endif 
+                    @if (!empty($blog->paragraph2)) <p> {{ $blog->paragraph2 }} </p> @endif 
+                    @if (!empty($blog->paragraph3)) <p> {{ $blog->paragraph3 }} </p> @endif 
                 </div>
             </div>
         </div>

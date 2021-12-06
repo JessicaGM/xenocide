@@ -81,7 +81,7 @@
                             <span class="blog-card-date">{{ date('jS M Y', strtotime($blog->created_at)) }}</span>
                         </div>
                         <h4>{{ $blog->title }}</h4>
-                        <p class="blog-card-description">{{ Str::words($blog->description, 12) }}</p>
+                        <p class="blog-card-description">{{ Str::words($blog->paragraph1, 12) }}</p>
                         <p class="blog-card-author"><i>{{ $blog->author }}</i></p>
                         <a href="{{url('/blog',[$blog->title])}}" type="button" class="view-blog">Read more
                             <span>&rarr;</span></a>
