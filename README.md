@@ -196,5 +196,5 @@ List of resources:
 [issues-shield]: https://img.shields.io/github/issues/JessicaGM/xenocide.svg?style=for-the-badge
 [issues-url]: https://github.com/JessicaGM/xenocide/issues
 [license-shield]: https://img.shields.io/github/license/JessicaGM/xenocide.svg?style=for-the-badge
-[license-url]: https://github.com/JessicaGM/xenocide/blob/main/LICENSE
+[license-url]: https://github.com/JessicaGM/xenocide/blob/master/LICENSE
 <!-- [product-screenshot]: images/screenshot.png -->
