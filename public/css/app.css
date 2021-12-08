@@ -11,18 +11,22 @@ html {
 
 body {
     background-color: rgb(16, 33, 47);
-}
-
-a {
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
     width: 100%;
     height: auto;
+    flex: 1 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Start navbar*/
@@ -76,49 +80,11 @@ a {
     background-color: white;
     border-radius: 20px;
 }
-
-@media (max-width: 700px) {
-    .toggle-btn {
-        display: flex;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute; 
-        width: 100%;
-        z-index: 9999;
-        background-color: rgb(16, 33, 47);
-    }
-
-    .nav-links {
-        display: none;
-        width: 100%;
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links ul li {
-        text-align: center;
-    }
-
-    .nav-links ul li a {
-        padding: 1rem 1rem;
-    }
-
-    .nav-links.active {
-        display: flex;
-        background-color: rgb(16, 33, 47);
-    }
-}
 /* End navbar */
 
 /* Start hero section */
 #hero {
-    min-height: 80vh;
+    min-height: 90vh;
 	width: 100%;
 	justify-content: center;
 	display: flex;
@@ -145,7 +111,7 @@ a {
     top: 0;
     left: 0;
     z-index: -10;
-    background: url(../images/texture.png);
+    background: url(/images/texture.png?7a746a2c56cdb093a0d38e9b7d6f2345);
 }
 
 #hero video {
@@ -187,20 +153,20 @@ a {
     font-size: 1.5rem;
     text-transform: uppercase;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #hero .hero-cta:hover {
     color: black;
     background-color: rgb(70, 212, 173);
 }
-
 /* End hero section */
 
 /* Start game section */
 .game {
 	width: 100%;
-	min-height: 50vh;
-	padding: 10rem 5rem 0rem 5rem;
+	min-height: 60vh;
+	padding: 5rem 5rem 0rem 5rem;
 	flex-direction: column;
 }
 
@@ -219,6 +185,7 @@ a {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	margin-top: 10px;
+    text-align: justify;
 }
 
 .game .game-img {
@@ -346,20 +313,20 @@ a {
 	text-align: center;
 	border: none;
 	color: rgb(16, 33, 47);
-	font-weight: 800px;
+	font-weight: 500;
 }
 
 .view-blog span {
-	 margin-left: 1rem;
-	 transition: 0.2s;
+	margin-left: 1rem;
+	transition: 0.2s;
 }
 
 .view-blog:hover {
 	color:  rgb(70, 212, 173);
 }
 
- .view-blog:hover span, .blog-view:active span {
-	 margin-left: 1.5rem;
+.view-blog:hover span, .blog-view:active span {
+	margin-left: 1.5rem;
 }
 /* End blog card section */
 
@@ -387,6 +354,7 @@ a {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	margin-top: 10px;
+    text-align: justify;
 }
 /* End about section */
 
@@ -569,11 +537,14 @@ a {
     display: center;
     overflow: hidden;
     margin-top: 20px;
+    padding: 1rem;
 }
 
 .article-image img {
     width: 100%;
     height: 100%;
+    max-height: 480px;
+    max-width: 960px;
     border-radius: 20px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -596,10 +567,9 @@ a {
 
 /* Start fix responsiveness */
 /* Desktop */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 769px) {
     .hero {
         height: 90vh;
-        padding-right: 10%;
     }
 
     #hero h1 {
@@ -607,15 +577,7 @@ a {
     }
 
     .game {
-        width: 90%;
-        margin: 0 auto;
-        flex-direction: row;
-    }
-
-    .game .game-content {
-        width: 50%;
-        text-align: left;
-        padding-right: 6rem;
+        padding: 5rem 12rem 0 12rem;
     }
 
     .about {
@@ -623,26 +585,48 @@ a {
     }
 
     #blog-article {
-        padding: 0 12rem;
+        padding: 0 5rem;
     }
 
     .article-image {
         padding: 0 5rem;
     }
 
-    .article-image img {
-        width: 90%;
-    }
-
     .article-description {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding-right: 8rem;
-        padding-left: 8rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 5rem;
+        padding-left: 5rem;
     }
 
     .article-description p {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #blog-article {
+        padding: 0 10rem;
+    }
+
+    .game {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: row;
+        padding: 5rem 5rem 0 5rem;
+
+    }
+ 
+    .game .game-content {
+        width: 50%;
+        text-align: left;
+        padding-right: 6rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #blog-article {
+        padding: 0 15rem;
     }
 }
 
@@ -656,15 +640,52 @@ a {
     }
 
     #blog-article {
-        padding: 0 15rem;
+        padding: 0 25rem;
     }
 }
 
-/* Moblie */
-@media screen and (max-width: 800px) {
+/* Moblie/iPad */
+@media screen and (max-width: 760px) {
+    .toggle-btn {
+        display: flex;
+    }
+
+    .navbar {
+        top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute; 
+        width: 100%;
+        z-index: 9999;
+        background-color: rgb(16, 33, 47);
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links ul li {
+        text-align: center;
+    }
+
+    .nav-links ul li a {
+        padding: 1rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+        background-color: rgb(16, 33, 47);
+    }
+
     #hero h1 {
+        margin-top: 10rem;
         font-size: 4rem;
-        margin-top: 15rem;
     }
 
     .game {
@@ -696,6 +717,7 @@ a {
     }
     
     #blog-article {
+        margin-top: 60px;
         padding: 0 1rem;
     }
 
