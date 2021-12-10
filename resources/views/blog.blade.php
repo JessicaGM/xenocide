@@ -33,6 +33,7 @@
     <!-- End navbar -->
     
     <!-- Start blog article section -->
+    {{-- retrive blog post from database based on url viewed --}}
     @foreach ($blogs as $blog)
     <section class="blog-article container" id="blog-article">
         <div class="article-container">

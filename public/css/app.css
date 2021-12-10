@@ -111,7 +111,7 @@ a {
     top: 0;
     left: 0;
     z-index: -10;
-    background: url(/images/texture.png?7a746a2c56cdb093a0d38e9b7d6f2345);
+    background: url(../images/texture.png?7a746a2c56cdb093a0d38e9b7d6f2345);
 }
 
 #hero video {
@@ -246,7 +246,7 @@ a {
   
 .blog-container .blog-card {
     margin: 30px;
-    width: 320px;
+    width: 330px;
     height: 390px;
     background-color: rgb(70, 212, 173,0.5);
     border-radius: 20px;

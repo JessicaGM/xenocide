@@ -16,9 +16,8 @@ class Blogs extends Migration
         Schema::create('blogs', function (Blueprint $table) {
             $table->increments('blogId');
             $table->string('title')->unique();
-            $table->enum('category', ['New', 'Announcement', 'Game updates', 'Our team']);
-            // change to text (to retrieve image url from database for a blog)
-            $table->text('image');
+            $table->enum('category', ['Announcement', 'Game updates', 'Development Process', 'Other']);
+            $table->text('image'); // for storing image url
             $table->text('paragraph1');
             $table->text('paragraph2');
             $table->text('paragraph3');
