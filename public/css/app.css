@@ -395,7 +395,7 @@ a {
 
 .card-container .card:hover{
     border-style: solid;
-    border-color: rgb(70, 212, 173,0.5);
+    border-color: rgb(70, 212, 173, 0.5);
 }
 
 .card-container .card-content {
@@ -602,6 +602,22 @@ a {
     .article-description p {
         margin-bottom: 30px;
     }
+
+    /* Start scroll back to top button */
+    .top-btn {
+        position: fixed; /* float on top of content */
+        bottom: 6rem;
+        right: 30px;
+        border: 0;
+        background: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    .top-btn:active {
+        color: rgb(70, 212, 173);
+    }
+    /* End scroll back to top button */
 }
 
 @media screen and (min-width: 1200px) {
@@ -728,5 +744,17 @@ a {
     .blog-container .blog-card {
         margin: 5px 5px 30px 5px;
     }
+
+    /* Start scroll back to top button */
+    .top-btn {
+        margin-top: 30px;
+        background-color: rgb(70, 212, 173, 0.5);
+        border: none;
+        color: white;
+    }
+   /* End scroll back to top button */
+   .footer {
+       margin-top: 0; 
+   }
 }
 /* End fix responsiveness */

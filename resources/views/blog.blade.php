@@ -69,6 +69,9 @@
     @endforeach
     <!-- End blog article section -->
 
+    <!-- Scroll back to top button -->
+    <button class="top-btn"><i class="fas fa-angle-up fa-3x"></i></button>
+    
     <!-- Start footer section -->
     @include('layouts.footer')
     <!-- End footer section -->

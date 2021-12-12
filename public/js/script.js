@@ -12,6 +12,26 @@ var toggleBtn = document.getElementsByClassName('toggle-btn')[0];
 var navLinks = document.getElementsByClassName('nav-links')[0];
 toggleBtn.addEventListener('click', function () {
   navLinks.classList.toggle('active');
+}); // scroll back to the top button
+
+var scrollToTopBtn = document.querySelector(".top-btn");
+
+var visibilityBtn = function visibilityBtn() {
+  if (document.documentElement.scrollTop <= 150) {
+    scrollToTopBtn.style.display = 'none';
+  } else {
+    scrollToTopBtn.style.display = 'block';
+  }
+};
+
+visibilityBtn(); // button not visible once page refreshed
+
+scrollToTopBtn.addEventListener('click', function () {
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0; // safari browser
+});
+document.addEventListener('scroll', function (e) {
+  visibilityBtn();
 });
 
 /***/ }),
