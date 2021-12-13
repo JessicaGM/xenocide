@@ -43,8 +43,8 @@
             <video src="images/HexBg.mp4" muted loop autoplay>Your browser does not support the
                 video</video>
             <h1 class="hero-heading">Xenocide</h1>
-            <h2 class="hero-subheading">Coming soon...</h2>
-            <a href="#game" type="button" class="hero-cta">&#x2193</a>
+            <h2 class="hero-subheading">Now available to play!</h2>
+            <a href="https://drive.google.com/file/d/1cdJSFlDtMityytrrCXV_NsdaqtYK1Uiy/view" type="button" class="hero-cta">Download</a>
         </div>
     </section>
     <!-- End hero section -->
@@ -57,7 +57,7 @@
         </div>
         <div class="game-img">
             <div class="game-img-wrapper">
-                <img src="images/sampleimage.png" alt="preview of the game">
+                <img src="images/game.jpg" alt="preview of the game">
             </div>
         </div>
     </section>
@@ -115,11 +115,11 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/ja-img.jfif" alt="member icon">
+                            <img src="images/ja-img.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Junaid A.</h4>
-                            <h5>Programmer</h5>
+                            <h5>Game Developer</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/alienj13"><i class="fab fa-github"></i></a>
@@ -129,11 +129,11 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/gn-img.jfif" alt="member icon">
+                            <img src="images/gn-img.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Gia N.</h4>
-                            <h5>Programmer</h5>
+                            <h5>Game Developer</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/IBN5101"><i class="fab fa-github"></i></a>
@@ -143,7 +143,7 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/jg-img.jfif" alt="member icon">
+                            <img src="images/jg-img.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Jessica G.</h4>
@@ -157,22 +157,22 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/default-d5.png" alt="member icon">
+                            <img src="images/default-d5.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Ahmed A.</h4>
-                            <h5>Game UI artist</h5>
+                            <h5>Sound Designer</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/us-img.jfif" alt="member icon">
+                            <img src="images/us-img.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Umayr S.</h4>
-                            <h5>Documentation Specialist</h5>
+                            <h5>Content Creator</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/usane001"><i class="fab fa-github"></i></a>
@@ -182,40 +182,40 @@
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/default-d2.png" alt="member icon">
+                            <img src="images/default-d2.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Andrew B.</h4>
-                            <h5>Documentation Specialist</h5>
+                            <h5>Developer</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/default-d1.png" alt="member icon">
+                            <img src="images/default-d1.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Rinah N.</h4>
-                            <h5>Documentation Specialist</h5>
+                            <h5>Content Creator</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/default-d4.png" alt="member icon">
+                            <img src="images/default-d4.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Ramy P.</h4>
-                            <h5>Documentation Specialist</h5>
+                            <h5>Sound Designer</h5>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="images/default-d3.png" alt="member icon">
+                            <img src="images/default-d3.jpg" alt="member icon">
                         </div>
                         <div class="card-info">
                             <h4>Zain E.</h4>
