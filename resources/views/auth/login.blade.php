@@ -52,12 +52,14 @@
                             <span class="ml-2">{{ __('Remember Me') }}</span>
                         </label>
 
-                        @if (Route::has('password.request'))
+                       <?php /* disable for now
+                       @if (Route::has('password.request'))
                         <a class="text-sm text-blue-500 hover:text-blue-700 whitespace-no-wrap no-underline hover:underline ml-auto"
                             href="{{ route('password.request') }}">
                             {{ __('Forgot Your Password?') }}
                         </a>
                         @endif
+                        */?>
                     </div>
 
                     <div class="flex flex-wrap">
