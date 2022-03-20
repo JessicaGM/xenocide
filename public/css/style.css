@@ -762,10 +762,6 @@ a {
        margin-top: 100px;
        margin-bottom: 50px;
     }
-
-    input {
-       outline: 1px solid #dcdde0; 
-    }
     /* End login/register/verify/confirm/email/reset page */
 
     /* Start profile page */
@@ -777,3 +773,8 @@ a {
 }
 /* End fix responsiveness */
 
+/* Start login/register/verify/confirm/email/reset page */
+input {
+    outline: 1px solid #cecfd1; 
+}
+/* End login/register/verify/confirm/email/reset page */
