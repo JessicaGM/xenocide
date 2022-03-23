@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<main id="main-form" class="sm:container sm:mx-auto sm:max-w-lg mt-8 mb-2">
+<main id="main-form" class="sm:container sm:mx-auto sm:max-w-lg my-8">
     <div class="flex">
         <div class="w-full">
 

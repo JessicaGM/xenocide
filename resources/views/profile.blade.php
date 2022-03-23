@@ -18,7 +18,7 @@
 
             <div class="w-full p-6">
                 <div class="text-gray-700">
-                   <p> Name: {{ ucfirst(Auth::user()->name) }} </p>
+                   <p> Username: {{ Auth::user()->username }} </p>
                    <p> Email: {{ Auth::user()->email }} </p>
                    <p> Rank: {{ Auth::user()->rank }} </p>
                    <p> Experience: {{ Auth::user()->experience }} </p>

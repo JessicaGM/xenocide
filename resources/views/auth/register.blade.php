@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<main id="main-form" class="sm:container sm:mx-auto sm:max-w-lg mt-8 mb-2">
+<main id="main-form" class="sm:container sm:mx-auto sm:max-w-lg my-8">
     <div class="flex">
         <div class="w-full">
             <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
@@ -15,14 +15,14 @@
                     @csrf
 
                     <div class="flex flex-wrap">
-                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2 sm:mb-4">
-                            {{ __('Name') }}:
+                        <label for="username" class="block text-gray-700 text-sm font-bold mb-2 sm:mb-4">
+                            {{ __('Username') }}:
                         </label>
 
-                        <input id="name" type="text" class="form-input w-full @error('name')  border-red-500 @enderror"
-                            name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                        <input id="username" type="text" class="form-input w-full @error('username')  border-red-500 @enderror"
+                            name="username" value="{{ old('username') }}" required autocomplete="username" autofocus>
 
-                        @error('name')
+                        @error('username')
                         <p class="text-red-500 text-xs italic mt-4">
                             {{ $message }}
                         </p>
