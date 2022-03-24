@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+@section('styles')
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+@show 
+
+
 @section('content')
     <!-- Start hero section -->
     <section id="hero" class="hero container">
@@ -196,6 +201,6 @@
     <!-- Scroll back to top button -->
     <button class="top-btn"><i class="fas fa-angle-up fa-3x"></i></button>
     
-    @include('layouts.footer')
+    @include('includes.footer')
 
 @endsection
