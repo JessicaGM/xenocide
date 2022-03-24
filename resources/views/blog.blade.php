@@ -1,33 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name') }}</title>
+
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Scripts -->
+    <script src="../js/app.js" defer></script>
     <script src="../js/script.js" defer></script>
-    <title>Xenocide</title>
+
 </head>
 
-<body class="blog-page">
-@include('layouts.navbar')
-    
+<body>
+
+    <!-- Start navbar -->
+    <nav class="navbar">
+        <div class="logo">Team 5</div>
+        <a href="#" class="toggle-btn">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </a>
+        <div class="nav-links">
+            <ul>
+                @if (Request::path()=='/')
+                <li><a href="#game">Game</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#team">Our team</a></li>
+                @else
+                <li><a href="{{ url('/') }}">Home</a></li>
+                @endif
+                <li><a href="{{ url('/leaderboard') }}">Leaderboard</a></li>
+                <li><a href="{{ url('/profile') }}">Profile</a></li>
+                @guest
+                <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                @if (Route::has('register'))
+                <li><a href="{{ route('register') }}">{{ __('Register') }}</a></li>
+                @endif
+                @else
+                <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">{{ __('Logout') }}</a></li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
+                    {{ csrf_field() }}
+                </form>
+                @endguest
+            </ul>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
     <!-- Start blog article section -->
     {{-- retrive blog post from database based on url viewed --}}
     @foreach ($blogs as $blog)
-    <section class="blog-article container" id="blog-article">
+    <main class="blog-article container" id="blog-article">
         <div class="article-container">
             <div class="article-category">
                 {{ $blog -> category }}
@@ -51,22 +91,20 @@
             </div>
             <div class="article-description-box">
                 <div class="article-description">
-                    @if (!empty($blog->paragraph1)) <p> {{ $blog->paragraph1 }} </p> @endif 
-                    @if (!empty($blog->paragraph2)) <p> {{ $blog->paragraph2 }} </p> @endif 
-                    @if (!empty($blog->paragraph3)) <p> {{ $blog->paragraph3 }} </p> @endif 
+                    @if (!empty($blog->paragraph1)) <p> {{ $blog->paragraph1 }} </p> @endif
+                    @if (!empty($blog->paragraph2)) <p> {{ $blog->paragraph2 }} </p> @endif
+                    @if (!empty($blog->paragraph3)) <p> {{ $blog->paragraph3 }} </p> @endif
                 </div>
             </div>
         </div>
-    </section>
+    </main>
     @endforeach
     <!-- End blog article section -->
 
     <!-- Scroll back to top button -->
     <button class="top-btn"><i class="fas fa-angle-up fa-3x"></i></button>
-    
-    <!-- Start footer section -->
-    @include('layouts.footer')
-    <!-- End footer section -->
+
+    @include('includes.footer')
 
 </body>
 </html>
