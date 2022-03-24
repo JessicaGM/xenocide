@@ -1,3 +1,4 @@
+<!-- Start footer section -->
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-left">
@@ -8,3 +9,4 @@
         </div>
     </div>
 </footer>
+<!-- End footer section -->

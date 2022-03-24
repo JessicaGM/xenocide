@@ -22,21 +22,7 @@
 </head>
 
 <body class="blog-page">
-    <!-- Start navbar -->
-    <nav class="navbar">
-        <div class="logo">Team 5</div>
-        <a href="#" class="toggle-btn">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </a>
-        <div class="nav-links">
-            <ul>
-                <li><a href="{{ url('/') }}">Home</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- End navbar -->
+@include('layouts.navbar')
     
     <!-- Start blog article section -->
     {{-- retrive blog post from database based on url viewed --}}
@@ -83,5 +69,4 @@
     <!-- End footer section -->
 
 </body>
-
 </html>

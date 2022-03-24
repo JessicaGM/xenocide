@@ -1,52 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="js/script.js" defer></script>
-    <title>Xenocide</title>
-</head>
-
-<body class="home-page">
-    <!-- Start navbar -->
-    <nav class="navbar">
-        <div class="logo">Team 5</div>
-        <a href="#" class="toggle-btn">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </a>
-        <div class="nav-links">
-            <ul>
-                <li><a href="#game">Game</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#team">Our team</a></li>
-                @guest
-                <li><a href="{{ route('login') }}">{{ __('Login/Register') }}</a></li>
-                    @else
-                        <li><a href="{{ route('profile') }}">{{ __('Profile') }}</a></li>
-                        <li><a href="{{ route('logout') }}"
-                           onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">{{ __('Logout') }}</a></li>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
-                            {{ csrf_field() }}
-                        </form>
-                    @endguest
-            </ul>
-        </div>
-    </nav>
-    <!-- End navbar -->
-
+@section('content')
     <!-- Start hero section -->
     <section id="hero" class="hero container">
         <div class="hero-content">
@@ -64,7 +18,7 @@
     <section class="game container" id="game">
         <div class="game-content">
             <h1 class="game-heading">Game</h1>
-            <p class="game-paragraph">Xenocide is a competitive turn-based strategy multiplayer game, where you protect your queen and your kingdom from evil invaders, non-human creatures. It is a perfect game to play with friends as you unlock new characters, rank up  and compete against each other. The game is intended for ages between 15 – 35 as it requires tactical skills to plan ahead and anticipate the movement of the opponents. </p>
+            <p class="game-paragraph">Xenocide is a competitive turn-based strategy multiplayer game, where you protect your queen and your kingdom from evil invaders, non-human creatures. It is a perfect game to play with friends as you unlock new characters, rank up and compete against each other. The game is intended for ages between 15 – 35 as it requires tactical skills to plan ahead and anticipate the movement of the opponents. </p>
         </div>
         <div class="game-img">
             <div class="game-img-wrapper">
@@ -108,7 +62,7 @@
         </div>
     </section>
     <!-- End blog section -->
-    
+
     <!-- Start about us section -->
     <section class="about container" id="about">
         <div class="about-content">
@@ -158,7 +112,7 @@
                         </div>
                         <div class="card-info">
                             <h4>Jessica G.</h4>
-                            <h5>Web Developer</h5>
+                            <h5>Full Stack Developer</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/JessicaGM"><i class="fab fa-github"></i></a>
@@ -238,14 +192,10 @@
         </div>
     </section>
     <!-- End our team section -->
-    
+
     <!-- Scroll back to top button -->
     <button class="top-btn"><i class="fas fa-angle-up fa-3x"></i></button>
-
-    <!-- Start footer section -->
+    
     @include('layouts.footer')
-    <!-- End footer section -->
 
-</body>
-
-</html>
+@endsection

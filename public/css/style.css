@@ -85,12 +85,12 @@ a {
 /* Start hero section */
 #hero {
     min-height: 90vh;
-	width: 100%;
-	justify-content: center;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero::after {
@@ -111,7 +111,7 @@ a {
     top: 0;
     left: 0;
     z-index: -10;
-    background: url('../images/texture.png');
+    background: url("../images/texture.png");
 }
 
 #hero video {
@@ -122,7 +122,7 @@ a {
     left: 0;
     z-index: -20;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 #hero .hero-content {
@@ -135,7 +135,6 @@ a {
     position: relative;
     color: white;
     margin-top: 1rem;
-    margin-bottom: 30px;
 }
 
 #hero h2 {
@@ -146,7 +145,7 @@ a {
 
 #hero .hero-cta {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 5px 30px;
     color: white;
     background-color: transparent;
     border: 2px solid rgb(70, 212, 173);
@@ -164,36 +163,36 @@ a {
 
 /* Start game section */
 .game {
-	width: 100%;
-	min-height: 60vh;
-	padding: 5rem 5rem 0rem 5rem;
-	flex-direction: column;
+    width: 100%;
+    min-height: 60vh;
+    padding: 5rem 5rem 0rem 5rem;
+    flex-direction: column;
 }
 
 .game .game-content {
-	text-align: center;
+    text-align: center;
     color: white;
 }
 
 .game .game-heading {
-	font-size: 3.5rem;
-	letter-spacing: 0.2rem;
-	text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 .game .game-paragraph {
-	font-size: 1.3rem;
-	line-height: 2rem;
-	margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 30px;
     text-align: justify;
 }
 
 .game .game-img {
-	margin-top: 50px;
-	display: block;
+    margin-top: 50px;
+    display: block;
 }
 
-.game .game-img-wrapper{
+.game .game-img-wrapper {
     margin-top: 30px;
     position: relative;
     display: inline-block;
@@ -209,13 +208,13 @@ a {
 
 .game .game-img-wrapper::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 50%;
     right: -2.5rem;
     transform: translateY(-50%);
     width: 60%;
     height: 130%;
-    background-color: rgb(70, 212, 173,0.5);
+    background-color: rgb(70, 212, 173, 0.5);
     border-radius: 20px;
     z-index: -5;
 }
@@ -224,26 +223,27 @@ a {
 /* Start blog card section */
 .blog {
     margin-top: 10rem;
-	width: 100%;
+    width: 100%;
     padding: 0 5rem;
     flex-direction: column;
 }
 
 .blog .blog-heading {
-	text-align: center;
+    text-align: center;
     color: white;
-	font-size: 3.5rem;
-	letter-spacing: 0.2rem;
-	text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 .blog-container {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
-  
+
 .blog-container .blog-card {
     margin: 30px;
     width: 350px;
@@ -251,14 +251,14 @@ a {
     background-color: rgb(70, 212, 173, 0.5);
     border-radius: 20px;
     overflow: hidden;
-	color: white;
+    color: white;
 }
 
 .blog-card-header img {
     width: 100%;
     height: 200px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .blog-card-category {
@@ -306,54 +306,56 @@ a {
     font-size: 0.8rem;
 }
 
-.blog .view-blog  {
-	margin-top: 20px;
-	width: 100%;
+.blog .view-blog {
+    margin-top: 5px;
+    width: 100%;
     font-size: 0.8rem;
-	text-align: center;
-	border: none;
-	color: rgb(16, 33, 47);
-	font-weight: 500;
+    display: block;
+    text-align: center;
+    border: none;
+    color: rgb(16, 33, 47);
+    font-weight: 500;
 }
 
 .view-blog span {
-	margin-left: 1rem;
-	transition: 0.2s;
+    margin-left: 1rem;
+    transition: 0.2s;
 }
 
 .view-blog:hover {
-	color:  rgb(70, 212, 173);
+    color: rgb(70, 212, 173);
 }
 
-.view-blog:hover span, .blog-view:active span {
-	margin-left: 1.5rem;
+.view-blog:hover span,
+.blog-view:active span {
+    margin-left: 1.5rem;
 }
 /* End blog card section */
 
 /* Start about section */
 .about {
     margin-top: 5rem;
-	width: 100%;
+    width: 100%;
     padding: 0 5em;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .about .about-content {
-	text-align: center;
+    text-align: center;
     color: white;
     padding-bottom: 2.5rem;
 }
 
 .about .about-heading {
-	font-size: 3.5rem;
-	letter-spacing: 0.2rem;
-	text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 .about .about-paragraph {
-	font-size: 1.3rem;
-	line-height: 2rem;
-	margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 30px;
     text-align: justify;
 }
 /* End about section */
@@ -361,23 +363,24 @@ a {
 /* Start meet the team section */
 .team {
     margin-top: 5rem;
-	width: 100%;
+    width: 100%;
     padding: 0 5rem;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .team .team-content {
-	text-align: center;
+    text-align: center;
     color: white;
 }
 
 .team .team-heading {
-	font-size: 3.5rem;
-	letter-spacing: 0.2rem;
-	text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 .card-container {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -393,7 +396,7 @@ a {
     border-radius: 20px;
 }
 
-.card-container .card:hover{
+.card-container .card:hover {
     border-style: solid;
     border-color: rgb(70, 212, 173, 0.5);
 }
@@ -409,28 +412,42 @@ a {
     overflow: hidden;
     display: inline-block;
     position: relative;
-    width: 90px; 
+    width: 90px;
     height: 77.94px;
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -webkit-clip-path: polygon(
+        0% 50%,
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%
+    );
+    -moz-clip-path: polygon(
+        0% 50%,
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%
+    );
     margin-bottom: 30px;
 }
 
 .card-container .card-img img {
     top: 0;
     left: 0;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     position: absolute;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
-.card-container .card h4 { 
+.card-container .card h4 {
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
     text-align: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .card-container .card h5 {
@@ -439,17 +456,17 @@ a {
     font-weight: 500;
 }
 
-.card-container .card .card-socials { 
-    margin-top: 40px;
+.card-container .card .card-socials {
+    margin-top: 20px;
 }
 
-.card-container .card .card-socials a { 
-    color:white;
+.card-container .card .card-socials a {
+    color: white;
     font-size: 30px;
 }
 
-.card-container .card .card-socials a:hover { 
-    color:rgb(70, 212, 173);
+.card-container .card .card-socials a:hover {
+    color: rgb(70, 212, 173);
 }
 /* End meet the team section */
 
@@ -466,16 +483,16 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-.footer-left{
+.footer-left {
     text-align: left;
     margin-left: 20px;
-    color:rgb(241, 241, 241);
+    color: rgb(241, 241, 241);
 }
-  
-.footer-right{
+
+.footer-right {
     text-align: right;
     margin-right: 20px;
-    color:rgb(241, 241, 241);
+    color: rgb(241, 241, 241);
 }
 /* End footer section */
 
@@ -483,11 +500,11 @@ a {
 #blog-article {
     margin-top: 30px;
     padding: 0 5em;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .article-container {
-	text-align: center;
+    text-align: center;
     color: white;
     background-color: #162b38;
     border-radius: 20px;
@@ -506,9 +523,9 @@ a {
 
 .article-heading {
     margin-top: 30px;
-	font-size: 1.3rem;
-	letter-spacing: 0.2rem;
-	text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -521,14 +538,16 @@ a {
     width: 100%;
 }
 
-.article-author, .article-date {
+.article-author,
+.article-date {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 10px;
 }
 
-.article-author i, .article-date i {
+.article-author i,
+.article-date i {
     margin: 0px 10px;
 }
 
@@ -630,9 +649,8 @@ a {
         margin: 0 auto;
         flex-direction: row;
         padding: 5rem 5rem 0 5rem;
-
     }
- 
+
     .game .game-content {
         width: 50%;
         text-align: left;
@@ -662,6 +680,62 @@ a {
 
 /* Moblie/iPad */
 @media screen and (max-width: 768px) {
+    .game {
+        margin-top: 100px;
+        padding: 3rem 3rem;
+    }
+
+    .about {
+        padding: 3rem 3rem;
+    }
+
+    .team {
+        padding: 0 1rem;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        text-align: left;
+        margin: 0 20px 20px 20px;
+    }
+
+    .footer-right {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    #blog-article {
+        margin-top: 60px;
+        padding: 0 1rem;
+    }
+
+    .article-heading {
+        font-size: 0.8rem;
+    }
+
+    .blog-container .blog-card {
+        margin: 5px 5px 30px 5px;
+    }
+
+    /* Start scroll back to top button */
+    .top-btn {
+        margin-top: 30px;
+        background-color: rgb(70, 212, 173, 0.5);
+        border: none;
+        color: white;
+    }
+    /* End scroll back to top button */
+    .footer {
+        margin-top: 0;
+    }
+}
+/* End fix responsiveness */
+
+@media screen and (max-width: 900px) {
     .toggle-btn {
         display: flex;
     }
@@ -670,7 +744,7 @@ a {
         top: 0;
         flex-direction: column;
         align-items: flex-start;
-        position: absolute; 
+        position: absolute;
         width: 100%;
         z-index: 9999;
         background-color: rgb(16, 33, 47);
@@ -704,77 +778,24 @@ a {
         font-size: 4rem;
     }
 
-    .game {
+    /* Start login/register/verify/confirm/email/reset page */
+    #main-form {
         margin-top: 100px;
-        padding: 3rem 3rem;
-    }
-
-    .about {
-        padding: 3rem 3rem;
-    }
-
-    .team {
-        padding: 0 1rem;
-    }
-
-    .footer-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .footer-left {
-        text-align: left;
-        margin: 0 20px 20px 20px;
-    }
-
-    .footer-right {
-        text-align: left;
-        margin-left: 20px;
-    }
-    
-    #blog-article {
-        margin-top: 60px;
-        padding: 0 1rem;
-    }
-
-    .article-heading {
-        font-size: 0.8rem;
-    }
-
-    .blog-container .blog-card {
-        margin: 5px 5px 30px 5px;
-    }
-
-    /* Start scroll back to top button */
-    .top-btn {
-        margin-top: 30px;
-        background-color: rgb(70, 212, 173, 0.5);
-        border: none;
-        color: white;
-    }
-   /* End scroll back to top button */
-   .footer {
-        margin-top: 0; 
-   }
-
-   /* Start login/register/verify/confirm/email/reset page */
-   #main-form {
-       margin-top: 100px;
-       margin-bottom: 50px;
+        margin-bottom: 50px;
     }
     /* End login/register/verify/confirm/email/reset page */
 
     /* Start profile page */
-   #main-profile {
-       margin-top: 100px;
-       margin-bottom: 50px;
-  }
-  /* End profile page */
-}
-/* End fix responsiveness */
+    #main-profile {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    /* End profile page */
 
-/* Start login/register/verify/confirm/email/reset page */
-input {
-    outline: 1px solid #cecfd1; 
+    /* Start leaderboard page */
+    #main-leaderboard {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    /* End leaderboard page */
 }
-/* End login/register/verify/confirm/email/reset page */

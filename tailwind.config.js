@@ -4,7 +4,16 @@ module.exports = {
     './resources/css/**/*.css',
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'shamrock': '#46d4ad',
+        'keppel': '#38b4a1',
+        'mariner': '#396cd1',
+      },
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'] 
+      },
+    },
   },
   variants: {},
   plugins: [
