@@ -26,7 +26,6 @@
     <script src="{{ secure_asset('js/app.js') }}" defer></script>
     <script src="{{ secure_asset('js/script.js') }}" defer></script>
     @show
-
 </head>
 
 <body>
@@ -45,12 +44,12 @@
             <ul>
                 @if (Request::path()=='/')
                 <li><a href="#game">Game</a></li>
-                <li><a href="#blog">Blog</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#team">Our team</a></li>
                 @else
                 <li><a href="{{ url('/') }}">Home</a></li>
                 @endif
+                <li><a href="{{ url('/blogs') }}">Blogs</a></li>
                 <li><a href="{{ url('/leaderboard') }}">Leaderboard</a></li>
                 <li><a href="{{ url('/profile') }}">Profile</a></li>
                 @guest
@@ -72,6 +71,7 @@
     <!-- End navbar -->
     
     @yield('content')
+    
 
 </body>
 

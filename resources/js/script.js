@@ -10,7 +10,7 @@ toggleBtn.addEventListener('click', () => {
 const scrollToTopBtn = document.querySelector(".top-btn");
 const visibilityBtn = () => {
     
-    if (document.documentElement.scrollTop <= 150) {
+    if (document.documentElement.scrollTop <= 110) {
         scrollToTopBtn.style.display = 'none';
     } else {
         scrollToTopBtn.style.display = 'block';

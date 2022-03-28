@@ -45,6 +45,7 @@
                 @else
                 <li><a href="{{ url('/') }}">Home</a></li>
                 @endif
+                <li><a href="{{ url('/blogs') }}">Blogs</a></li>
                 <li><a href="{{ url('/leaderboard') }}">Leaderboard</a></li>
                 <li><a href="{{ url('/profile') }}">Profile</a></li>
                 @guest

@@ -221,7 +221,7 @@ a {
 
 /* Start blog card section */
 .blog {
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
     padding: 0 5rem;
     flex-direction: column;
@@ -333,7 +333,7 @@ a {
 
 /* Start about section */
 .about {
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 100%;
     padding: 0 5em;
     flex-direction: column;
@@ -580,6 +580,7 @@ a {
 
 .article-description p {
     margin-bottom: 20px;
+    word-spacing: 5px;
 }
 /* End blog article page */
 

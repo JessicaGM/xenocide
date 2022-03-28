@@ -6,8 +6,8 @@ use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\LeaderboardController;
 
-//Route::get(uri:'/', action:'App\Http\Controllers\PagesController@index');
-Route::get('/', [BlogsController::class, 'index']);
+Route::get(uri:'/', action:'App\Http\Controllers\PagesController@index');
+Route::get('/blogs', [BlogsController::class, 'blog']);
 Route::get('/blog/{title}', [BlogsController::class, 'show']);
 
 Auth::routes();
