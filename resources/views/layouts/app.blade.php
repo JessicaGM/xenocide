@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -44,6 +44,7 @@
             <ul>
                 @if (Request::path()=='/')
                 <li><a href="#game">Game</a></li>
+                <li><a href="#characters">Characters</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#team">Our team</a></li>
                 @else

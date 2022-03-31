@@ -69,8 +69,8 @@
                     <p>Rank required to obtain the character: 5</p>
                     <br>
                     <p>HP: 15</p>
-                    <p>AFK: 15</p>
-                    <p>DEF: 20</p>
+                    <p>AFK: 20</p>
+                    <p>DEF: 1</p>
                     <br>
                     <p>Movement range: 5 (cross)</p>
                     <br>
