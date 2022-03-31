@@ -32,6 +32,88 @@
     </section>
     <!-- End game section -->
 
+    <!-- Start game section -->
+    <section class="characters container" id="characters">
+        <h1 class="characters-heading">Characters</h1>
+    <div class="characters-accordion">
+        <div class="character character-1" id="character">
+            <h3>Queen<h3>
+            <div class="hide">
+                <div class="character-description">
+                    <p>HP: 50</p>
+                    <p>AFK: 0</p>
+                    <p>DEF: 0</p>
+                    <br>
+                    <p>Immobile and cannot attack, protect the Queen at all cost</p>
+                </div>
+            </div>
+        </div>
+        <div class="character character-2" id="character">
+            <h3>Drone<h3>
+            <div class="hide">
+                <div class="character-description">
+                    <p>HP: 15</p>
+                    <p>AFK: 8</p>
+                    <p>DEF: 2</p>
+                    <br>
+                    <p>Movement range: 5 (square)</p>
+                    <br>
+                    <p>Attack range: 1 (square)</p>
+                </div>
+            </div>
+        </div>
+        <div class="character character-3" id="character">
+            <h3>Destroyer<h3>
+            <div class="hide">
+                <div class="character-description">
+                    <p>Rank required to obtain the character: 5</p>
+                    <br>
+                    <p>HP: 15</p>
+                    <p>AFK: 15</p>
+                    <p>DEF: 20</p>
+                    <br>
+                    <p>Movement range: 5 (cross)</p>
+                    <br>
+                    <p>Attack range: 1 (square)</p>
+                </div>
+            </div>
+        </div>
+        <div class="character character-4" id="character">
+            <h3>Curer<h3>
+            <div class="hide">
+                <div class="character-description">
+                    <p>Rank required to obtain the character: 3</p>
+                    <br>
+                    <p>HP: 20</p>
+                    <p>AFK: 12</p>
+                    <p>DEF: 5</p>
+                    <br>
+                    <p>Movement range: 5 (diamond)</p>
+                    <br>
+                    <p>Attack range: 2 (diamond)</p>
+                    <br>
+                    <p>When killing an enemy, you recover 5 HP</p>
+                </div>
+            </div>
+        </div>
+        <div class="character character-5" id="character">
+            <h3>Warrior<h3>
+            <div class="hide">
+                <div class="character-description">
+                    <p>HP: 20</p>
+                    <p>AFK: 8</p>
+                    <p>DEF: 4</p>
+                    <br>
+                    <p>Movement range: 8 (cross)</p>
+                    <br>
+                    <p>Attack range: 3 (cross)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- End game section -->
+
     <!-- Start about us section -->
     <section class="about container" id="about">
         <div class="about-content">
