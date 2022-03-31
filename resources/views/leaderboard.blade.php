@@ -13,7 +13,7 @@
                         <tr>
                             <th class="px-8 py-4">Pos.</th>
                             <th class="px-8 py-4">Username</th>
-                            <th class="px-8 py-4">Level</th>
+                            <th class="px-8 py-4">Rank</th>
                             <th class="px-8 py-4">Experience</th>
                             <th class="px-8 py-4">Joined</th>
                         </tr>
@@ -33,7 +33,7 @@
                         <tr>
                             <th class="px-8 py-4">Pos.</th>
                             <th class="px-8 py-4">Username</th>
-                            <th class="px-8 py-4">Level</th>
+                            <th class="px-8 py-4">Rank</th>
                             <th class="px-8 py-4">Experience</th>
                             <th class="px-8 py-4">Joined</th>
                         </tr>
