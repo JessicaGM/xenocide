@@ -832,7 +832,7 @@ a {
 }
 /* End fix responsiveness */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .toggle-btn {
         display: flex;
     }
