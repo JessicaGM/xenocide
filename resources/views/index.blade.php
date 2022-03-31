@@ -13,7 +13,7 @@
                 video</video>
             <h1 class="hero-heading">Xenocide</h1>
             <h2 class="hero-subheading">Now available to play!</h2>
-            <a href="https://drive.google.com/file/d/1cdJSFlDtMityytrrCXV_NsdaqtYK1Uiy/view" type="button" class="hero-cta">Download</a>
+            <a href="https://drive.google.com/file/d/1IOMfyJm4r23Y1zk_tEIV9GdJRsUsumEh/view" type="button" class="hero-cta">Download</a>
         </div>
     </section>
     <!-- End hero section -->
