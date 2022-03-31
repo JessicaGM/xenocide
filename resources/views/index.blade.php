@@ -135,7 +135,7 @@
                         </div>
                         <div class="card-info">
                             <h4>Junaid A.</h4>
-                            <h5>Game Developer</h5>
+                            <h5>Game Developer & Animations</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/alienj13"><i class="fab fa-github"></i></a>
@@ -177,7 +177,7 @@
                         </div>
                         <div class="card-info">
                             <h4>Ahmed A.</h4>
-                            <h5>Sound Designer</h5>
+                            <h5>UI Designer</h5>
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="card-info">
                             <h4>Umayr S.</h4>
-                            <h5>Content Creator</h5>
+                            <h5>Developer</h5>
                         </div>
                         <div class="card-socials">
                             <a href="https://github.com/usane001"><i class="fab fa-github"></i></a>
@@ -224,7 +224,7 @@
                         </div>
                         <div class="card-info">
                             <h4>Ramy P.</h4>
-                            <h5>Sound Designer</h5>
+                            <h5>UI Designer</h5>
                         </div>
                     </div>
                 </div>
