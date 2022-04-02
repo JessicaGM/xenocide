@@ -41,7 +41,7 @@
             <div class="hide">
                 <div class="character-description">
                     <p>HP: 50</p>
-                    <p>AFK: 0</p>
+                    <p>ATK: 0</p>
                     <p>DEF: 0</p>
                     <br>
                     <p>Immobile and cannot attack, protect the Queen at all cost</p>
@@ -53,7 +53,7 @@
             <div class="hide">
                 <div class="character-description">
                     <p>HP: 15</p>
-                    <p>AFK: 8</p>
+                    <p>ATK: 8</p>
                     <p>DEF: 2</p>
                     <br>
                     <p>Movement range: 5 (square)</p>
@@ -69,7 +69,7 @@
                     <p>Rank required to obtain the character: 5</p>
                     <br>
                     <p>HP: 15</p>
-                    <p>AFK: 20</p>
+                    <p>ATK: 20</p>
                     <p>DEF: 1</p>
                     <br>
                     <p>Movement range: 5 (cross)</p>
@@ -85,7 +85,7 @@
                     <p>Rank required to obtain the character: 3</p>
                     <br>
                     <p>HP: 20</p>
-                    <p>AFK: 12</p>
+                    <p>ATK: 12</p>
                     <p>DEF: 5</p>
                     <br>
                     <p>Movement range: 5 (diamond)</p>
@@ -101,7 +101,7 @@
             <div class="hide">
                 <div class="character-description">
                     <p>HP: 20</p>
-                    <p>AFK: 8</p>
+                    <p>ATK: 8</p>
                     <p>DEF: 4</p>
                     <br>
                     <p>Movement range: 8 (cross)</p>
