@@ -227,6 +227,9 @@ a {
     flex-direction: column;
     text-align: center;
     color: white;
+    position: relative;
+  	z-index: 1;
+    font-size: 1.5rem;
 }
 
 .characters .characters-heading {
@@ -256,12 +259,6 @@ a {
     flex: 4;
 }
 
-#character{
-	position: relative;
-  	z-index: 1;
-    font-size: 1.5rem;
-}
-
 .hide {
 	position: absolute;
     z-index: 2;
@@ -273,7 +270,7 @@ a {
     opacity: 0;
 }
 
-#character:hover .hide {
+.character:hover .hide {
 	opacity: 0.9;
 }
 

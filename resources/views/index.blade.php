@@ -36,7 +36,7 @@
     <section class="characters container" id="characters">
         <h1 class="characters-heading">Characters</h1>
     <div class="characters-accordion">
-        <div class="character character-1" id="character">
+        <div class="character character-1">
             <h3>Queen<h3>
             <div class="hide">
                 <div class="character-description">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="character character-2" id="character">
+        <div class="character character-2">
             <h3>Drone<h3>
             <div class="hide">
                 <div class="character-description">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="character character-3" id="character">
+        <div class="character character-3">
             <h3>Destroyer<h3>
             <div class="hide">
                 <div class="character-description">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="character character-4" id="character">
+        <div class="character character-4">
             <h3>Curer<h3>
             <div class="hide">
                 <div class="character-description">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="character character-5" id="character">
+        <div class="character character-5">
             <h3>Warrior<h3>
             <div class="hide">
                 <div class="character-description">
